@@ -1,32 +1,15 @@
 ### Data Source and Description
-source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+ 
 description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ### Variables
-From the original data only the measurements on the mean and standard deviation for each measurement have been used
+From the original data only the measurements on the mean and standard deviation for each measurement have been used.
 For each activity type and subject the mean of these variables has been calculated.
 Please see list of variable names in tidy data set below.
 
 activityType
 SubjectID
-tBodyAcc-mean-X
-tBodyAcc-mean-Y
-tBodyAcc-mean-Z
-tBodyAcc-std-X
-tBodyAcc-std-Y
-tBodyAcc-std-Z
-tGravityAcc-mean-X
-tGravityAcc-mean-Y
-tGravityAcc-mean-Z
-tGravityAcc-std-X
-tGravityAcc-std-Y
-tGravityAcc-std-Z
-tBodyAccJerk-mean-X
-tBodyAccJerk-mean-Y
-tBodyAccJerk-mean-Z
-
-### Data Transformation
-Data transformation steps are written down in the README.md and run_analysis.R files
 tBodyAccJerk-std-X
 tBodyAccJerk-std-Y
 tBodyAccJerk-std-Z
@@ -78,5 +61,10 @@ fBodyBodyGyroMag-mean
 fBodyBodyGyroMag-std
 fBodyBodyGyroJerkMag-mean
 fBodyBodyGyroJerkMag-std
+
+### Data Transformation
+Data transformation steps are written down in the README.md and run_analysis.R files.
+
+
 
 
